@@ -1,0 +1,27 @@
+.hero {
+  background-color: rgb(43, 196, 173);
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100svh;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  &__title {
+    margin: 0;
+    font-size: 50px;
+    text-align: center;
+    color: var(--color-light);
+
+    span {
+      font-size: 40px;
+    }
+  }
+}

@@ -14,9 +14,11 @@
 .page__body {
   margin: 0;
   height: 100%;
+
   // min-height: 100%;
   min-width: 360px;
   font-size: 16px;
+  background-color: var(--color-bg);
 }
 
 img {
@@ -113,5 +115,5 @@ a {
 .grid {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  gap: 32px;
+  gap: 20px;
 }

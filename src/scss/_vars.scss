@@ -2,16 +2,16 @@
 // colors
 :root {
   // base
-  --font-family: "Ubuntu";
+  --font-family: "Lora";
   --second-family: "Museo", sans-serif;
-
-  --font-family: "Open Sans", sans-serif;
-  --content-width: 1170px;
+  --content-width: 1750px;
   --container-offset: 15px;
   --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
 
   // colors
-  --color-main: #35424b;
+  --color-main: #495057;
+  --color-bg: #F8F9FA;
+  --color-light: #fff;
 
   // focus
   --outline: 1px dashed currentColor;
