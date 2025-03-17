@@ -1,0 +1,178 @@
+{
+  "trips": [
+    {
+      "name": "Екскрусійні тури",
+      "slug": "Ekskyrsiini tyri",
+      "chars": [
+        {
+          "link": "#",
+          "img": "img/travel1.jpg",
+          "img_2x": "img/travel1@2x.jpg",
+          "imgWebp": "img/travel1.webp",
+          "imgWebp_2x": "img/travel1@2x.webp",
+          "sale": "Розпродаж",
+          "id": "103980",
+          "title": "Sunrise Marina Port Ghalib 5*",
+          "subtitle": "Єгипет, Шарм Ель Шейк",
+          "date": "Є16-26 листопада (20 ночей)",
+          "visa": "Без візи",
+          "dep": "Виліт зі Львову",
+          "rating": "5",
+          "food": "Ultra All-Inclusive",
+          "priceUa": "2 649",
+          "priceEu": "89"
+        },
+        {
+          "link": "#",
+          "img": "img/travel2.jpg",
+          "img_2x": "img/travel2@2x.jpg",
+          "imgWebp": "img/travel2.webp",
+          "imgWebp_2x": "img/travel2@2x.webp",
+          "sale": "Розпродаж",
+          "id": "103980",
+          "title": "Вихідні в Празі",
+          "subtitle": "Чехія, Прага / Угорщина, Будапешт",
+          "date": "09-12 люього (3 ночі)",
+          "visa": "Без візи",
+          "dep": "Виїзд з Києва",
+          "rating": "3",
+          "food": "Сніданки",
+          "priceUa": "1 235",
+          "priceEu": "45"
+        }
+      ]
+    },
+    {
+      "name": "Мальдіви",
+      "slug": "Maldivi",
+      "chars": [
+        {
+          "link": "#",
+          "img": "img/travel3.jpg",
+          "img_2x": "img/travel3@2x.jpg",
+          "imgWebp": "img/travel3.webp",
+          "imgWebp_2x": "img/travel3@2x.webp",
+          "sale": "Розпродаж",
+          "id": "103980",
+          "title": "Golden Beach Palms Resort 4*",
+          "subtitle": "о. Балі, Денпасар",
+          "date": "16-26 листопада (20 ночей)",
+          "visa": "Без візи",
+          "dep": "Виліт з Одеси",
+          "rating": "4",
+          "food": "Сніданки + вечері",
+          "priceUa": "32 500",
+          "priceEu": "1540"
+        }
+      ]
+    },
+    {
+      "name": "Греція",
+      "slug": "Grecia",
+      "chars": [
+        {
+          "link": "#",
+          "img": "img/travel4.jpg",
+          "img_2x": "img/travel4@2x.jpg",
+          "imgWebp": "img/travel4.webp",
+          "imgWebp_2x": "img/travel4@2x.webp",
+          "sale": "Розпродаж",
+          "id": "103980",
+          "title": "Галопом по Європах",
+          "subtitle": "Чехія, Прага / Угорщина, Будапешт",
+          "date": "16-26 листопада (20 ночей)",
+          "visa": "Без візи",
+          "dep": "Виліт зі Львову",
+          "rating": "5",
+          "food": "Ultra All-Inclusive",
+          "priceUa": "2 649",
+          "priceEu": "89"
+        },
+        {
+          "link": "#",
+          "img": "img/travel5.jpg",
+          "img_2x": "img/travel5@2x.jpg",
+          "imgWebp": "img/travel5.webp",
+          "imgWebp_2x": "img/travel5@2x.webp",
+          "sale": "Розпродаж",
+          "id": "103980",
+          "title": "Галопом по Європах",
+          "subtitle": "Чехія, Прага / Угорщина, Будапешт",
+          "date": "16-26 листопада (20 ночей)",
+          "visa": "Без візи",
+          "dep": "Виліт зі Львову",
+          "rating": "5",
+          "food": "Ultra All-Inclusive",
+          "priceUa": "2 649",
+          "priceEu": "89"
+        },
+        {
+          "link": "#",
+          "img": "img/travel6.jpg",
+          "img_2x": "img/travel6@2x.jpg",
+          "imgWebp": "img/travel6.webp",
+          "imgWebp_2x": "img/travel6@2x.webp",
+          "sale": "Розпродаж",
+          "id": "103980",
+          "title": "Golden Beach Palms Resort 4*",
+          "subtitle": "о. Балі, Денпасар",
+          "date": "16-26 листопада (20 ночей)",
+          "visa": "Без візи",
+          "dep": "Виліт з Одеси",
+          "rating": "4",
+          "food": "Сніданки + вечері",
+          "priceUa": "32 500",
+          "priceEu": "1540"
+        }
+      ]
+    },
+    {
+      "name": "Куба",
+      "slug": "Kyba",
+      "chars": [
+        {
+          "link": "#",
+          "img": "img/travel7.jpg",
+          "img_2x": "img/travel7@2x.jpg",
+          "imgWebp": "img/travel7.webp",
+          "imgWebp_2x": "img/travel7@2x.webp",
+          "sale": "Розпродаж",
+          "id": "103980",
+          "title": "Вихідні в Празі",
+          "subtitle": "Чехія, Прага / Угорщина, Будапешт",
+          "date": "09-12 люього (3 ночі)",
+          "visa": "Без візи",
+          "dep": "Виїзд з Києва",
+          "rating": "3",
+          "food": "Сніданки",
+          "priceUa": "1235",
+          "priceEu": "45"
+        }
+      ]
+    },
+    {
+      "name": "ОАЕ",
+      "slug": "OAE",
+      "chars": [
+        {
+          "link": "#",
+          "img": "img/travel8.jpg",
+          "img_2x": "img/travel8@2x.jpg",
+          "imgWebp": "img/travel8.webp",
+          "imgWebp_2x": "img/travel8@2x.webp",
+          "sale": "Розпродаж",
+          "id": "103980",
+          "title": "Golden Beach Palms Resort 4*",
+          "subtitle": "о. Балі, Денпасар",
+          "date": "16-26 листопада (20 ночей)",
+          "visa": "Без візи",
+          "dep": "Виліт з Одеси",
+          "rating": "4",
+          "food": "Сніданки + вечері",
+          "priceUa": "32 500",
+          "priceEu": "1540"
+        }
+      ]
+    }
+  ]
+}
