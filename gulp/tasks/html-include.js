@@ -21,8 +21,7 @@ export const htmlInclude = () => {
       webpHTML({
         extensions: ['jpg', 'jpeg', 'png', 'gif', 'webp'],
         retina: {
-          1: '',
-          2: '@2x',
+          1: ''
         },
       })
     ))
