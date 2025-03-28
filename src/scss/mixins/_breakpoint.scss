@@ -1,14 +1,8 @@
 /* stylelint-disable */
 
-@mixin for-desktop {
-  @media (min-width: (1025px)) {
-    @content;
-  }
-}
 
-
-@mixin big-desktop {
-  @media (max-width: (1342px)) {
+@mixin desktop {
+  @media (max-width: (1780px)) {
     @content;
   }
 }

@@ -1,16 +1,24 @@
 .works {
   padding: 100px 0;
 
-  &__title {
-    margin: 0;
-    margin-bottom: 45px;
-    font-weight: 700;
-    font-size: 36px;
-    color: var(--color-main);
+  @include small-tablet {
+    padding: 70px 0;
   }
 
   &__article {
     grid-column: 4 span;
+
+    @include desktop {
+      grid-column: 6 span;
+    }
+
+    @include tablet {
+      grid-column: 12 span;
+    }
+
+    @include mobile {
+      margin: 0 -15px;
+    }
   }
 
   &__img-link {
@@ -27,6 +35,11 @@
         transform: scale(1.05);
       }
     }
+
+    @include mobile {
+      border-radius: 0;
+      height: 250px;
+    }
   }
 
   &__img {
@@ -39,6 +52,10 @@
     object-fit: cover;
     object-position: top;
     transition: transform 0.3s;
+
+    @include mobile {
+      // object-fit: contain;
+    }
   }
 
   &__labels {
@@ -62,6 +79,10 @@
 
   &__body {
     padding: 15px 0;
+
+    @include mobile {
+      padding: 15px;
+    }
   }
 
   &__subtitle {

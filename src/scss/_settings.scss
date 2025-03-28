@@ -117,3 +117,16 @@ a {
   grid-template-columns: repeat(12, 1fr);
   gap: 20px;
 }
+
+.title {
+  margin: 0;
+  margin-bottom: 45px;
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--color-main);
+
+  &--light {
+    color: var(--color-light);
+  }
+}
+

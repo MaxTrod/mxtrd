@@ -1,264 +1,41 @@
 .header {
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   z-index: 100;
+  padding: 20px 0;
   width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+
+  @include small-tablet {
+    padding: 10px 0;
+  }
 
   &__container {
-    position: relative;
-    z-index: 2;
-    display: grid;
-    grid-template-columns: 208px 1fr auto;
-    min-height: 95px;
-
-    @include tablet {
-      padding: 0 8px;
-    }
-
-    @include small-tablet {
-      grid-template-columns: 108px 1fr auto;
-      min-height: 72px;
-    }
-  }
-
-  &__inner {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1fr auto;
-
-    @include tablet {
-      justify-content: end;
-      grid-template-columns: auto;
-    }
-
-    padding: 8px 0;
-    background-color: var(--light-color);
-  }
-
-  &__logo {
-    position: relative;
-    z-index: 9;
-    border-radius: 0 0 0 8px;
-
-    @include flex-all-center;
-
-    height: 100%;
-    background-color: var(--accent-color);
-    transition: background-color 0.3s;
-
-    @include small-tablet {
-      background-color: var(--light-color);
-
-      .logo {
-        display: none;
-      }
-    }
-
-    @include focus-visible;
-
-    @include hover {
-      background-color: var(--main-color);
-    }
-
-    &:active {
-      background-color: var(--secondary-color);
-    }
-
-  }
-
-  &__buttons {
-    position: relative;
-    z-index: 8;
     display: flex;
     align-items: center;
-    border-radius: 0 0 8px;
-    padding: 0 15px;
-    background-color: var(--light-color);
-    gap: 25px;
+    justify-content: flex-end;
+    gap: 30px;
   }
 
-  &__globe {
-    display: none;
+  &__subtitle {
+    font-size: 20px;
+    color: var(--color-light);
 
-    @include small-tablet {
-      display: block;
-    }
-  }
-
-  &__globe-icon {
-    width: 32px;
-    height: 32px;
-    fill: var(--accent-color);
-  }
-
-  &__btn {
     @include small-tablet {
       display: none;
     }
   }
 }
 
-
-.phone-header {
-  position: relative;
-  z-index: 9;
-  display: flex;
-  align-items: center;
-  padding-right: 36px;
-  padding-left: 15px;
-  gap: 8px;
-
-  @include big-desktop {
-    flex-direction: column;
-    padding: 0 15px;
-  }
-
-  &::before,
-  &::after {
-    @include pseudo;
-
-    position: absolute;
-    top: 0;
-    width: 1px;
-    height: 100%;
-    background-color: var(--decor-color);
-  }
-
-  &::after {
-    left: 0;
-  }
-
-  &::before {
-    right: 0;
-  }
-
-  &__call-link {
-    color: var(--accent-color);
-
-    @include big-desktop {
-      display: none;
-    }
-
-    @include focus-visible;
-
-    @include hover {
-      .phone-header__img {
-        fill: var(--main-color);
-      }
-    }
-
-    &:active {
-      .phone-header__img {
-        fill: var(--secondary-color);
-      }
-    }
-  }
-
-  &__img {
-    width: 32px;
-    height: 32px;
-    fill: var(--accent-color);
-    transition: fill 0.3s;
-  }
-
-  &__tel {
-    font-weight: 700;
-    font-size: 15px;
-
-    @include tablet {
-      font-size: 18px;
-    }
-
-    line-height: 1.07;
-    color: var(--dark-color);
-    transition: color 0.3s;
-
-    @include focus-visible;
-
-    @include hover {
-      color: var(--accent-color);
-    }
-
-    &:active {
-      color: var(--secondary-color);
-    }
-  }
-
-  &__call-order {
-    font-size: 12px;
-
-    @include tablet {
-      font-size: 18px;
-    }
-
-    line-height: 1.33;
-    color: var(--accent-color);
-    transition: color 0.3s;
-
-    @include focus-visible;
-
-    @include hover {
-      color: var(--dark-color);
-    }
-
-    &:active {
-      color: var(--secondary-color);
-    }
-  }
-
-  &__button-menu {
-    display: none;
-
-    @include big-desktop {
-      display: block;
-    }
-  }
-
-  &__menu {
+.nav {
+  &__list {
     display: flex;
-    flex-direction: column;
-
-    @include big-desktop {
-      position: absolute;
-      top: 0;
-      z-index: 10;
-      border: 1px solid var(--accent-color);
-      border-radius: 4px;
-      padding: 10px;
-      height: auto;
-      min-width: 150px;
-      background-color: var(--light-color);
-      opacity: 0;
-
-      @include tablet {
-        min-width: 190px;
-      }
-
-      visibility: hidden;
-      transition:
-        top 0.3s,
-        visibility 0.3s,
-        opacity 0.3s
-      ;
-
-      &--active {
-        top: 50px;
-        opacity: 1;
-        visibility: visible;
-
-        @include tablet {
-          top: 60px;
-        }
-      }
-    }
+    gap: 100px;
   }
 
-  &__menu-item {
-    line-height: 1;
-
-    &:not(:last-child) {
-      margin-bottom: 7px;
-    }
+  &__link {
+    font-size: 20px;
+    color: var(--color-light);
   }
 }
