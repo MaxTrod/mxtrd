@@ -19,7 +19,7 @@
   }
 
   &__subtitle {
-    font-size: 20px;
+  font-size: 20px;
     color: var(--color-light);
 
     @include small-tablet {
@@ -28,14 +28,35 @@
   }
 }
 
-.nav {
-  &__list {
-    display: flex;
-    gap: 100px;
-  }
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
 
   &__link {
-    font-size: 20px;
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 139%;
     color: var(--color-light);
+
+    svg {
+      // width: 70px;
+      // height: 70px;
+      width: 40px;
+      height: 40px;
+      transition: transform 0.3s;
+    }
+
+    @include hover {
+      text-decoration: underline;
+
+      svg {
+        transform: scale(1.1);
+      }
+    }
   }
 }
+
+

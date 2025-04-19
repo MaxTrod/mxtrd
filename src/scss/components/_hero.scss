@@ -65,6 +65,10 @@
       background: url('../img/arrow.svg') 0 0 / cover no-repeat;
       transform: translateX(-50%);
     }
+
+    @include hover {
+      text-decoration: underline;
+    }
   }
 }
 
